@@ -1,0 +1,91 @@
+body {
+  background: #131313;
+  color: #f5f5dc;
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/fundo-steampunk.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: rgba(20, 20, 20, 0.970);
+  padding: 40px;
+  border: 2px solid #5c4033;
+  box-shadow: 0 0 20px #000;
+}
+
+header h1 {
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
+  font-size: 36px;
+  color: #d4af37;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.photo {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #5c4033;
+  box-shadow: 0 0 10px #000;
+}
+
+.bio {
+  flex: 2 1 500px;
+}
+
+.bio p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.destaque {
+  font-style: italic;
+  font-size: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #d4af37;
+  padding-left: 15px;
+  color: #d4af37;
+}
+
+.latin {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 40px;
+  color: #ffcc70;
+}
+
+.latin span {
+  display: block;
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #555;
+  padding-top: 15px;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  color: #b8860b;
+}

@@ -1,0 +1,73 @@
+body {
+  background: url('../img/fundo-de-papel-grunge.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+  padding: 50px;
+}
+
+.card {
+  max-width: 700px;
+  margin: auto;
+  background-color: rgba(255, 248, 220, 0.97);
+  padding: 40px;
+  border: 3px solid #5c4033;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #3b2a1a;
+}
+
+.date {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #5c4033;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2c1b0f;
+  margin-bottom: 20px;
+}
+
+.signature {
+  margin-top: 40px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.signature strong {
+  display: block;
+  margin-top: 5px;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 20px;
+  color: #3b2a1a;
+}
+
+.footer-quote {
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+  color: #6b3e2e;
+}
+
+/* Estilo para campos de entrada "invisíveis" */
+.input-interno {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px dotted #5c4033;
+  width: 240px;
+  outline: none;
+}
