@@ -12,7 +12,7 @@ body {
 .container {
   max-width: 900px;
   margin: 40px auto;
-  background-color: rgba(20, 20, 20, 0.970);
+  background-color: rgba(20, 20, 20, 0.870);
   padding: 40px;
   border: 2px solid #5c4033;
   box-shadow: 0 0 20px #000;
